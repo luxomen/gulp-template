@@ -1,0 +1,11 @@
+@import "modules/positions.styl"
+
+rem(size)
+    return (size / html-size) rem
+
+size(a, b = false)
+    width a
+    if b
+        height b
+    else
+        height a

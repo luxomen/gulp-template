@@ -1,0 +1,13 @@
+include ../utils/mixins
+include ../utils/variables
+
+block variables
+
+doctype html
+html(lang="en")
+    head
+        include ../head
+        title= title
+    body
+        .wrapper
+            block content
